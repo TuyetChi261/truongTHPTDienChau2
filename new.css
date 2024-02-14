@@ -1,0 +1,32 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    margin-left: 5px;
+}
+img {
+    padding-right:15px;
+    width: 250px;
+}
+.tieude{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+}
+.noidung{
+    float: left;
+    font-size: 15px;
+    padding-bottom: 10px;
+    text-align: justify;
+    padding-right: 10px;
+}
+.tintuc{
+    border: 2px solid blue;
+    margin: 20px;
+    padding: 20px;
+}
+table{
+    border-collapse: collapse;
+}

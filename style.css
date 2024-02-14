@@ -1,0 +1,106 @@
+body {
+    padding:0px;
+    margin:0px;
+}
+.trangchu{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.trangchu > header {
+    background-image: url(THPT.jpg);
+    background-size: 100% 100%;
+    padding-bottom: 20%;
+}
+/*---------------------------------------------------- */
+.menu {
+    background-color: blue;
+    line-height: 40px;
+}
+.menu>ul {
+    list-style: none;
+    text-align: center;
+}
+.menu>ul>li {
+    display: inline-block;
+} 
+.menu>ul>li>a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-variant:small-caps;
+    padding: 0 20px;
+}
+.menu>ul>li>a:hover {
+    color: white;
+    text-decoration: underline;
+    background-color: gray;
+}
+/* --------------------------------------------------- */
+.menu ul ul{
+    position:absolute;
+    display:none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    width:109px;
+    background-color:gray;
+    box-shadow: 0px 0px 5px gray;
+}
+.menu ul ul a {
+    display:block;
+    line-height:30px;
+    color:white;
+    text-decoration:none;
+    font-variant:small-caps;
+    padding: 0px 10px;
+}
+.menu>ul>li:hover>ul {
+    display:block;
+}
+.menu ul ul a:hover {
+    background-color:grey;
+    color:white;
+    text-decoration: underline;
+}
+/* -------------------------------------------------- */
+article{
+    width:80%;
+    background-color:white;
+    float:left;
+}
+/* -------------------------------- */
+aside {
+    width:20%;
+    background-color:white;
+    float:right;
+}
+aside ul {
+    list-style: none;
+}
+aside a{
+    display: block;
+    border: 1px dotted blue;
+    color:blue;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+}
+aside a:hover {
+    background-color:blue;
+    color: white;
+    font-weight: bold;
+}
+/* ---------------------------------------------------- */
+footer{
+    border-top:2px double black;
+    line-height:30px;
+    color: white;
+    background-color: blue;
+    text-align:center;
+    clear:both;
+}
+/* ---------------------------------------------------- */
+iframe[name=page]{
+    width: 100%;
+    min-height: 500px;
+}

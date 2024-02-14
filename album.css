@@ -1,0 +1,26 @@
+.album {
+    margin-left: 10px;
+    border: 1px solid blue;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+}
+.anh {
+    width: 100%;
+    text-align: center;
+}
+.anh>img {
+    width: 27%;
+    height: 26vh;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color:aqua;
+    box-shadow: 0px 0px 5px blue;
+}
+.anh>img:hover {
+    box-shadow: 0px 0px 20px blue;
+    background-color:white;
+}
